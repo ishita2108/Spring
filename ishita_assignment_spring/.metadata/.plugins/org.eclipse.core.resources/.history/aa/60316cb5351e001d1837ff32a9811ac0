@@ -1,0 +1,24 @@
+package com.productapp.controller;
+
+import java.math.BigDecimal;
+import java.util.*;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.productapp.dao.Product;
+import com.productapp.service.ProductService;
+import com.productapp.service.ProductServiceImpl;
+
+public class Main {
+	public static void main(String[] args) {
+
+//		ProductService productService = new ProductServiceImpl();
+//
+//		productService.getAll();
+//		productService.getById(1);
+		ApplicationContext ctx=new ClassPathXmlApplicationContext("bean.xml");
+
+	}
+
+}

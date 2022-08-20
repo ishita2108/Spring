@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="03_productapp_bean_lifecycle"/>
+<aop-project name="01_productapp_why_di"/>
+<aop-project name="02_productapp_xml"/>
+<aop-project name="00_productapp_why_di"/>
+</aop-reference-model>

@@ -1,0 +1,16 @@
+package com.productapp.dao;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+
+public class ProductAspect {
+	@Around("execution(public Product addProduct(Product product))")
+	public Object added(ProceedingJoinPoint joinPoint) throws Throwable{
+		System.out.println("start");
+		Object val=joinPoint.proceed();
+		System.out.println("end");
+		return val;
+		
+	}
+
+}

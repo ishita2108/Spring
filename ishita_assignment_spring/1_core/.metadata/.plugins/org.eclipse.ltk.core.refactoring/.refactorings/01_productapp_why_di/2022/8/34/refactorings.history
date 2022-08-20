@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.productapp.config&apos; to &apos;03_productapp_bean_lifecycle/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;01_productapp_why_di&apos;&#x0D;&#x0A;- Destination element: &apos;03_productapp_bean_lifecycle/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;01_productapp_why_di/src/main/java/com.productapp.config&apos;" description="Copy package" destination="=03_productapp_bean_lifecycle/src\/main\/java" element1="/src\/main\/java&lt;com.productapp.config" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1660975793450" version="1.0"/>
+</session>
